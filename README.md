@@ -43,14 +43,13 @@ bash script_multi_gpu.sh # Multi-GPU
 - Changing **--n_context** requires different graph files. (In this demo we only support **--n_context 100**)  
 - Ablation experiments can be tested by setting **--gnn_mode** to "NO_RELATION" or "NO_ATTENTION".
 
-The GPU consumption can be found in our paper.
-
-(roughly 30GB for large config with **--per_gpu_batch_size** set to 1, and 29GB for base config with **--per_gpu_batch_size** set to 3)
+Detailed GPU consumption can be found in our paper.
+(roughly 30GB for large config with **--per_gpu_batch_size** set to 1, and 29GB for base config with **--per_gpu_batch_size** set to 3.)
 
 ## Dependencies
 The main libraries we utilize are:
 
-- torch===1.11.0
+- torch==1.11.0
 - transformers==4.18.0
 - dgl==0.8.2
 - sentencepiece
@@ -59,9 +58,6 @@ The main libraries we utilize are:
 To reproduce our results, please download the data folder from this google drive [[drive link]](https://drive.google.com/drive/folders/1-MYadjSWi8_3nl8vgtK_Dvja43IQGyHp?usp=sharing).
 
 Inside the data folder are the json inputs as well as DGL graphs. We are still cleaning the code for data pre-processing and it is not included in this repository. Please contact the authors for these code. 
-
-## Credit 
-We modified our code from the repository of Fusion-in-Decoder (FiD) [[repo]](https://github.com/facebookresearch/FiD).
 
 ## Cite
 If you find this repository useful in your research, please cite our paper:
@@ -75,6 +71,9 @@ If you find this repository useful in your research, please cite our paper:
   year={2022}
 }
 ```
+
+## Credit 
+We modified our code from the repository of Fusion-in-Decoder (FiD) [[repo]](https://github.com/facebookresearch/FiD).
 
 ## Contact
 Mingxuan Ju (mju2@nd.edu), Wenhao Yu (wyu1@nd.edu)
