@@ -63,6 +63,18 @@ Inside the data folder are the json inputs as well as DGL graphs. We are still c
 ## Credit 
 We modified our code from the repository of Fusion-in-Decoder (FiD) [[repo]](https://github.com/facebookresearch/FiD).
 
-## Contact
+## Cite
+If you find this repository useful in your research, please cite our paper:
 
+```bibtex
+@inproceedings{ju2022grape,
+  title={GRAPE: Knowledge Graph Enhanced Passage Reader for Open-domain Question Answering},
+  author={Ju, Mingxuan and Yu, Wenhao and Zhao, Tong and Zhang, Chuxu and Ye, Yanfang},
+  booktitle={Findings of Empirical Methods in Natural Language Processing},
+  pages={},
+  year={2022}
+}
+```
+
+## Contact
 Mingxuan Ju (mju2@nd.edu), Wenhao Yu (wyu1@nd.edu)
