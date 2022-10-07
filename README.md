@@ -2,7 +2,7 @@
 
 ![grape](grape.png)
 
-Hi all, this is the official repository for EMNLP 2022 paper: **GRAPE:grapes: : Knowledge Graph Enhanced Passage Reader for Open-domain Question Answering**. We sincerely apprecaite your interests in our projects!
+Hi all, this is the official repository for EMNLP 2022 paper: **GRAPE:grapes: : Knowledge Graph Enhanced Passage Reader for Open-domain Question Answering**. Our paper can be found at [[arXiv link]](http://arxiv.org/abs/2210.02933). We sincerely apprecaite your interests in our projects!
 
 ## Instruction 
 
