@@ -59,6 +59,8 @@ To reproduce our results, please download the data folder from this google drive
 
 Inside the data folder are the json inputs as well as DGL graphs. We are still cleaning the code for data pre-processing and it is not included in this repository. Please contact the authors for these code. 
 
+We also uploaded the model checkpoints (both large and base configurations) for NQ and TQA as well as the intermediate outputs to the google drive [[drive link]](https://drive.google.com/drive/folders/1zs2BB6ZhleqFnPUYogyCcouDr_TqS2pc?usp=sharing).
+
 ## Cite
 If you find this repository useful in your research, please cite our paper:
 
